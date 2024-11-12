@@ -45,14 +45,13 @@ console.log(even);
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
 function sumArray(arr) {
-  let sum = 0; //
+  let sum = 0;
   arr.forEach((num) => {
     sum += num;
   });
   return sum;
 }
 
-// Esempio di utilizzo della funzione
 const numeri = [10, 20, 30, 40, 50];
 let somma = sumArray(numeri);
 
